@@ -1,4 +1,4 @@
-// additon of 2 numbers without + operator
+// additon of 2 numbers( postive integer ) without + operator
 
 #include <stdio.h>
 
