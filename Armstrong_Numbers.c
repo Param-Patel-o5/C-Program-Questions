@@ -1,4 +1,5 @@
 // to check whether the given number is ARMSTRONG or not
+// ARMSTRONG number is a number that is equal to the sum of its digits, each raised to the power of the number of digits in the number
 #include <stdio.h>
 #include <math.h>
 
