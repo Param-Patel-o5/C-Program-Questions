@@ -3,17 +3,17 @@
 
 int main()
 {
-    int number, result = 0, Q, Remainder;
-    printf("PLease enter the Number: ");
+    int number, result = 0, P, Remainder;
+    printf("Please enter the Number: ");
     scanf("%d", &number);
     
-    Q = number;
+    P = number;
 
-    while (Q != 0)
+    while(P != 0)
     {
-        Remainder = Q % 10;
+        Remainder = P % 10;
         result = result * 10 + Remainder;
-        Q = Q / 10;
+        P = P / 10;
     }
 
     if (result == number)

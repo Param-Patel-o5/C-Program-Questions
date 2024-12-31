@@ -1,17 +1,16 @@
-// Print pyramid patern by input of number of rows
+// Print pyramid patern by input of number of rows.
 #include <stdio.h>
 
 int main()
-{
-    int i, j, n;
+{  int i, j, number;
     printf("How many rows do you want in your pyramid \n");
-    scanf("%d", &n);
-
-    for (i = 1; i <= n; i++)
+    scanf("%d", &number);
+   
+    for (i = 1; i <= number; i++)
     {
-        for (j = 1; j <= 2 * n - 1; j++)
+        for (j = 1; j <= 2 * number - 1; j++)
         {
-            if (j >= n - (i - 1) && j <= n + (i - 1))
+            if (j >= number - (i - 1) && j <= number + (i - 1))
             {
                 printf("*");
             }
